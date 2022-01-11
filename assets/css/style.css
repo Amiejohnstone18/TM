@@ -1,18 +1,106 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 #grad {
   background-image: linear-gradient(to right, #f15fff , #0270ff , #1fffce);
   border: none;
   color: white;
 }
 
-.nav-menu {
-  color: black;
-}
-
 .gif {
-  margin-top: 20px;
+  margin-top: 120px;
 }
 
-#hero-heading {
+#hero-heading{
+  margin-top: 120px;
   font-size: 4em;
   text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.ss-image {
+  margin-top: 120px;
+  float: left;
+  margin-left: 0px;
+}
+
+.ss-1 {
+  color: #1fffce;
+}
+
+#ss-button {
+  background-color: #1fffce;
+  color: white;
+}
+
+.ss-graphic {
+  margin-top: 170px;
+  margin-left: 60px;
+}
+
+/* Number Counter */
+.counter-container {
+  background-color: azure;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.counter {
+  text-align: center;
+}
+
+
+/* MarketSelect */
+
+.ms-2 {
+  color: #f15fff;
+}
+
+#ms-button {
+  background-color: #f15fff;
+  color: white;
+}
+
+.ms-graphic {
+  margin-top: 100px;
+  margin-right: 60px;
+}
+
+/* Cyber Risk */
+.cr-3 {
+  color: #0270ff;
+}
+
+#cr-button {
+  background-color: #0270ff;
+  color: white;
+}
+
+.cr-graphic {
+  margin-top: 90px;
+  margin-left: 60px;
+}
+
+/* Container Demo */
+.boxed {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(to right, #f15fff , #0270ff , #1fffce);
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+#demo-button {
+  color: white;
+  border: 1px solid white;
 }
