@@ -1,0 +1,18 @@
+#grad {
+  background-image: linear-gradient(to right, #f15fff , #0270ff , #1fffce);
+  border: none;
+  color: white;
+}
+
+.nav-menu {
+  color: black;
+}
+
+.gif {
+  margin-top: 20px;
+}
+
+#hero-heading {
+  font-size: 4em;
+  text-align: center;
+}
