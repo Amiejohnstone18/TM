@@ -123,6 +123,21 @@ h3, h4{
 
 .counter {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icon {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.count {
+  margin-top: 20px;
+}
+
+h6 {
+  padding-top: 5px;
 }
 
 .ss-list {
