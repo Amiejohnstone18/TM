@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>TM Home Page </title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="/assets/images /tm-logo.png" width="200" height="80" alt="">
+        </a>
+        <button type="button" class="btn" id="grad">REQUEST A DEMO</button>
+    </nav>
+    <ul class="nav justify-content-center bg-light">
+  <li class="nav-item ">
+    <a class="nav-link active text-dark" href="index.html">Home</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="supplierselect.html">SupplierSelect</a>
+      <a class="dropdown-item" href="#">MarketSelect</a>
+      <a class="dropdown-item" href="#">Cyber Risk</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Solutions</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Regulatory Soltuions</a>
+      <a class="dropdown-item" href="#">Data</a>
+      <a class="dropdown-item" href="#">Monitoring</a>
+      <a class="dropdown-item" href="#">Advisory Solutions</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark" href="#">Insights</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark" href="#">Our Clients</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark" href="#">About Us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-dark" href="#">Contact Us</a>
+  </li>
+</ul>
+
+
+  <!-- Number Counter -->
+  <div class="counter-container bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col"><div class="counter">
+          <i class="fas fa-users"></i>
+            <h3 data-target="20000" class="count">0</h3>
+            <h6>Users</h6>
+        </div></div>
+        <div class="col"><div class="counter">
+          <i class="fas fa-comments"></i>
+            <h3 data-target="1000000" class="count">0</h3>
+            <h6>Responses</h6>
+        </div></div>
+        <div class="col"><div class="counter">
+          <i class="fas fa-tv"></i>
+            <h3 data-target="1" class="count">1</h3>
+            <h6>Secure platform</h6>
+        </div></div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Footer -->
+   <div class="container-fluid bg-light footer">
+    <div class="row">
+      <div class="col-sm">
+            <h5 class="card-title">Products</h5>
+            <a class="nav-link text-dark" href="#">SupplierSelect</a>
+        <a class="nav-link text-dark" href="#">MarketSelect</a>
+        <a class="nav-link text-dark" href="#">Cyber Risk</a>
+          </div>
+          <div class="col-sm">
+            <h5 class="card-title">Solutions</h5>
+            <a class="nav-link text-dark" href="#">Data</a>
+        <a class="nav-link text-dark" href="#">Monitoring</a>
+        <a class="nav-link text-dark" href="#">Advisory Solutions</a>
+        <a class="nav-link text-dark" href="#">Regulatory Solutions</a>
+          </div>
+          <div class="col-sm">
+            <h5 class="card-title">Insights</h5>
+            <a class="nav-link text-dark" href="#">Articles</a>
+        <a class="nav-link text-dark" href="#">Events</a>
+        <a class="nav-link text-dark" href="#">News</a>
+        <a class="nav-link text-dark" href="#">Videos</a>
+        <a class="nav-link text-dark" href="#">Webinars</a>
+        <a class="nav-link text-dark" href="#">Whitepapers</a>
+          </div>
+          <div class="col-sm">
+            <h5 class="card-title">Company</h5>
+            <a class="nav-link text-dark" href="#">Our Clients</a>
+        <a class="nav-link text-dark" href="#">Experts</a>
+      </div>
+      <div class="col-sm">
+        <h5 class="card-title">Get in touch</h5>
+        <p>Thomas Murray</p>
+        <p>1 Farrier's Yard</p>
+        <p>77 Fulham Palace Road</p>
+        <p>London W6 8AH</p>
+        <a href="#" class="btn btn-primary" id="grad">Contact Us</a>
+      </div>
+    </div>
+  
+
+
+<script> 
+const counters = document.querySelectorAll('.count');
+const speed = 200;
+
+counters.forEach((counter) => {
+const updateCount = () => {
+  const target = parseInt(counter.getAttribute('data-target'));
+  const count = parseInt(counter.innerText);
+  const increment = Math.trunc(target / speed);
+
+  if (count < target) {
+    counter.innerText = count + increment;
+    setTimeout(updateCount, 1);
+  } else {
+    counter.innerText = target;
+  }
+};
+updateCount();
+});</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
