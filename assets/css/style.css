@@ -34,15 +34,13 @@ h3, h4{
   margin-top: 80px;
 }
 
-.ss-image {
-  margin-top: 120px;
-  float: left;
-  margin-left: 0px;
+/* PRoducts */
+
+.titles {
+  text-align: left;
 }
 
-.ss-1 {
-  color: #1fffce;
-}
+/* SupplierSelect */
 
 #ss-button {
   background-color: #1fffce;
@@ -50,42 +48,11 @@ h3, h4{
 }
 
 .ss-graphic {
-  margin-top: 170px;
+  margin-top: 20px;
   margin-left: 60px;
 }
 
-/* Number Counter */
-.counter-container {
-  background-color: azure;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.counter {
-  text-align: center;
-}
-
-
-/* MarketSelect */
-
-.ms-2 {
-  color: #f15fff;
-}
-
-#ms-button {
-  background-color: #f15fff;
-  color: white;
-}
-
-.ms-graphic {
-  margin-top: 100px;
-  margin-right: 60px;
-}
-
 /* Cyber Risk */
-.cr-3 {
-  color: #0270ff;
-}
 
 #cr-button {
   background-color: #0270ff;
@@ -93,8 +60,19 @@ h3, h4{
 }
 
 .cr-graphic {
-  margin-top: 90px;
+  margin-top: 0px;
   margin-left: 60px;
+}
+
+/* Market Flow */
+#ms-button {
+  background-color: #f15fff;
+  color: white;
+}
+
+.ms-graphic {
+  margin-top: 0px;
+  margin-right: 60px;
 }
 
 /* Container Demo */
@@ -114,13 +92,32 @@ h3, h4{
   border: 1px solid white;
 }
 
+/* Testimonials */
 .testimonials {
   margin-top: 50px;
 }
 
+/* Footer */
 .footer {
   margin-top: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 12px;
+}
+
+/* SupplierSelect */
+
+/* Number Counter */
+.counter-container {
+  background-color: azure;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.counter {
+  text-align: center;
+}
+
+.ss-list {
+  font-size: 18px;
 }
